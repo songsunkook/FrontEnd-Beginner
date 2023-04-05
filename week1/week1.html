@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        font-size: 0px;
+      }
+      #header {
+        width: 100vw;
+        height: 60px;
+        background-color: rgba(255, 0, 0, 0.741);
+      }
+      #navigation {
+        width: 100px;
+        height: calc(100vh - 100px);
+        background-color: hsl(140, 100%, 60%);
+      }
+      #holyGrailLayout {
+        width: calc(100vw - 220px);
+        height: calc(100vh - 100px);
+        background-color: rgb(255, 133, 222);
+      }
+      #sider {
+        width: 100px;
+        height: calc(100vh - 100px);
+        background-color: rgb(255, 215, 56);
+      }
+      #Footer {
+        width: 100vw;
+        height: 40px;
+        background-color: rgba(255, 0, 0, 0.741);
+      }
+      .boxesInline {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header" class="boxes"></div>
+    <div id="navigation" class="boxesInline"></div>
+    <div id="holyGrailLayout" class="boxesInline"></div>
+    <div id="sider" class="boxesInline"></div>
+    <div id="Footer" class="boxes"></div>
+  </body>
+</html>

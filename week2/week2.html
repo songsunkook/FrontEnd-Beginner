@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .inlineContent {
+        display: inline-block;
+      }
+    </style>
+    <script src="week2.js"></script>
+  </head>
+  <body>
+    <div>
+      <h3 class="inlineContent">자기소개 페이지</h3>
+      <button
+        id="toggle_button"
+        class="inlineContent"
+        type="button"
+        onclick="toggleDisplaySensitiveContents()"
+      >
+        개인 정보 숨기기
+      </button>
+    </div>
+
+    <img src="BCSDLAB.png" />
+    <div class="texts">
+      <div>이름 : 송선권</div>
+      <div>나이 : 23</div>
+      <div class="sensitive_contents">학번 : 2020136070</div>
+      <div class="sensitive_contents">전화번호 : 010-4098-5852</div>
+      <div>전공 : 컴퓨터공학부</div>
+    </div>
+  </body>
+</html>

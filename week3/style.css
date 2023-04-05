@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  /*grid-template-rows: 1fr;*/
+  flex-direction: column;
+  width: 50vw;
+  gap: 20px;
+}
+.text-justify {
+  margin-bottom: 5px;
+}
+
+#title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ececec;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #7681ff;
+  color: white;
+}
